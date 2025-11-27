@@ -27,9 +27,7 @@
                 else if (x <= lenght / 2)
                 {
                     outside_counter++;
-                }
-            
-            
+                }           
             }
             area = (inside_counter / throws) * (height * lenght);
             Console.WriteLine("the area of the second smaller reactangle is " + area);
